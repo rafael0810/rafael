@@ -1,33 +1,81 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CASI || Withdraw</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>CASI || Withdrawal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://unpkg.com/feather-icons"></script>
+  <body>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <nav>
-      <nav class="topnav">
-        <a href="index.html"
-          ><img src="images/CASI-logos.jpg" alt="CASI-logos" width="80px"
-        /></a>
-      <ul>
-        <a href="fnp.html">Fitur dan Produk</a>
-        <a href="promo.html">Promo</a>
-        <a href="profile.html">Profile</a>
-        <a href="faq.html">FAQ</a>
-          
-          <a href="login.html"><small>sudah punya akun?</small></a>
-        </li>
-      </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a href="index.html" class="navbar-brand"
+        ><img src="images/CASI-logos.jpg" alt="CASI-logos" width="80px"
+      /></a>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav" style="margin-left: 12%">
+          <li class="nav-item active">
+            <a href="fnp.html" class="nav-link"
+              ><i data-feather="credit-card"></i> &nbsp Fitur dan Produk &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="promo.html" class="nav-link"
+              ><i data-feather="gift"></i> &nbsp Promo &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="profile.html" class="nav-link"
+              ><i data-feather="user"></i>&nbsp Profile &nbsp &nbsp &nbsp &nbsp &nbsp
+              &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a href="faq.html" class="nav-link"
+              ><i data-feather="help-circle"></i>&nbsp FAQ</a
+            >
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              ><small>sudah punya akun?<i data-feather="log-in"></i></small
+            ></a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a href="register.html" class="dropdown-item">Register</a>
+              <a href="signin.html" class="dropdown-item">Sign-in</a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <header>
       <div>
       </div>
@@ -53,7 +101,6 @@
         <div class="button">
         <button type="submit">Withdraw</button>
         </div>
-      </div>
       <h1 style="text-align: center">Promo</h1>
       <div class="slideshow-container">
       <div class="mySlide fade">
@@ -198,27 +245,81 @@
     </header>
     <div>
     </div>
-    <footer>
-        <div style="flex: 1">
-          <h3>About us</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum magnam
-            sed libero eos quo numquam nam deserunt modi. Nobis ea porro
-            repellendus illum minus optio cum enim ipsam aliquid veniam.
-          </p>
+      <footer>
+        <div class="footer-bottom bg-secondary" style="padding-top: 10px;">
+            <div class="container ">
+                <div class="row justify-content-xl-center">
+                    <div class="col">
+                        <div class="header">
+                            <h3 style="letter-spacing: 2vh;">CASI</h3>
+                        </div>
+                        <br>
+                        <ul class="footer-nav nav flex-column">
+                            <li class="nav-item">
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-5">
+                        <div class="header">
+                            <h5>CUSTOMER CARE</h5>
+                        </div>
+                        <br>
+                        <ul class="footer-nav nav flex-column">
+                            <li class="nav-item"><a href='faq.html'>FAQ </a></li>
+                            <li class="nav-item"><a href='fnp.html'>Fitur dan Produk </a></li>
+                            <li class="nav-item"><a href='promo.html'>Promo </a></li>
+                        </ul>
+                    </div>
+  
+                    <div class="col-lg-2 col-md-5">
+                        <div class="header">
+                            <h5>ABOUT US</h5>
+                        </div>
+                        <br>
+                        <ul class="footer-nav nav flex-column">
+                            <li class="nav-item"><a href=''>Career</a></li>
+                            <li class="nav-item"><a href=''>Privacy & Policy</a></li>
+                            <li class="nav-item"><a href=''>Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-5">
+                        <div class="header">
+                            <h5>MY ACCOUNT</h5>
+                        </div>
+                        <br>
+                        <ul class="footer-nav nav flex-column">
+                            <li class="nav-item"><a href='register.html'>Register</a></li>
+                            <li class="nav-item"><a href='signin.html'>Sign In</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-5">
+                        <div class="header">
+                            <h5>CONTACT US</h5>
+                        </div>
+                        <br>
+                        <ul class="footer-nav nav flex-column">
+                            <li class="nav-item">
+                                <p><i data-feather="instagram"></i> : casi_id</p>
+                            </li>
+                            <li class="nav-item">
+                                <p><i data-feather="twitter"></i> : casi_id</p>
+                            </li>
+                            <li class="nav-item">
+                                <p><i data-feather="mail"></i> : casi@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br>
         </div>
-        <div style="flex: 1">
-          <h3><a class="faq" href="faq.html" style="color: white">FAQ</a></h3>
-          <h3>Privacy and Policy</h3>
-          <h3>Help Center</h3>
-          <h3>Contact Us</h3>
         </div>
-        <div class="msg">
-          <p>Silahkan hubungi kami melalui layanan berikut :</p>
-          <p>Email : casi@gmail.com</p>
-          <p>Instagram : @casi_id</p>
+        <div class="bg-secondary">
+            <br>
+            <div class="text-center" style="color: white;">
+                &copy; copyright - 2021 CASI
+            </div>
+            <br>
         </div>
-        <div class="copyright_footer">
-          <p>copyright - 2021 CASI</p>
-        </div>
-      </footer>
+    </footer>
