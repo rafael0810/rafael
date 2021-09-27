@@ -1,203 +1,97 @@
-.topnav {
-  overflow: hidden;
-  background-color: black;
-  margin-bottom: 10px;
+a {
+  text-decoration: none !important;
 }
 
-.topnav a {
-  float: left;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  padding: 14px 16px;
-  font-size: 18px;
-}
-input:invalid{
-    background: pink;
-  }
-  .container{
-    background: whitesmoke;
-    width: auto;
-    height:auto;
-    padding:14px 16px;
-    position: 14px;
-    left: 10%;
-    top:1%;
-    border-radius: 10px;
-  }
-
-input{
-    border: 3px solid #555;
-  }
-select {
-    width: auto;
-    padding: 14px 16px;
-    border: none;
-    border-radius: 4px;
-    background-color: #e2e2e2;
-  }
-button {
-    border-radius: 8px;
-    padding: 10px 30x
-    background-color rgb(211, 207, 207);
-    font-size: 14px;
-}
-  
-.merchant1 {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 18%;
+.nav-item:hover {
+  background-color: #1d1d1d;
 }
 
-.merchant1 img {
-  width: 150px;
-}
-
-.merchant2 {
-  display: flex;
-  justify-content: space-between;
-  margin: 2% 18%;
-}
-
-.merchant2 img {
-  width: 150px;
-}
-
-.merchant3 {
-  display: flex;
-  justify-content: space-between;
-  margin: 2% 18%;
-}
-
-.merchant3 img {
-  width: 150px;
+header img {
+  height: 380px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-  background-color: rgb(255, 145, 0);
   color: white;
-  display: ruby-base;
-  text-align: left;
-  font-size: 13px;
 }
 
-.faq {
-  text-decoration: none;
+footer a {
+  color: white;
 }
 
-.msg {
-  line-height: 50%;
+.register {
+  text-align: justify;
+  padding: 100px;
 }
 
-.copyright_footer {
+.sign {
+  padding: 100px;
+  text-align: justify;
+}
+
+.transfer {
+  padding: 100px;
   text-align: center;
-  font-size: 15px;
 }
 
-* {
-  box-sizing: border-box;
+.trfbank {
+  padding: 80px;
+  text-align: center;
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
+.trfrek {
+  padding: 80px;
+  text-align: center;
+}
+
+.detail {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+}
+
+.Premium {
+  padding: 3%;
+  text-align: center;
+}
+
+.Redeem {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.premiumregis {
+  outline: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.bayar {
+  background-color: white;
+  text-align: center;
+}
+
+.form {
+  background-color: white;
+  width: 420px;
+  border: 1px solid black;
+  padding: 50px;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.topup {
+  width: 400px;
+  border: 1px solid black;
+  padding: 30px;
+  margin: auto;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.container {
   text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
-  }
 }
