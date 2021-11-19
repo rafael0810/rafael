@@ -87,7 +87,7 @@
       <div class="container">
         <p>Processing Fee 2%</p>
         <p>Late Payment 5%</p>
-      <form>
+      <form><div class="rcorners">
         <label>1. Please Input Your NIK:</label>
         <br />
         <input type="text" placeholder="NIK" />
@@ -106,17 +106,23 @@
           max="2030-12-31"
         />
         <br /><br />
-        <label>4. Please Take a Selfie With your identification card</label>
+        <label>4. Please Input your identification card</label>
+        <p>(Limit file size is 5mb, file can be either .jpg or .png)</p>
+        <div style="margin-left: 10%">
+          <input type="file" id="selfie" name="selfie" />
+        </div>
+        <br>
+        <label>5. Please Take a Selfie With your identification card</label>
         <p>(Limit file size is 5mb, file can be either .jpg or .png)</p>
         <div style="margin-left: 10%">
           <input type="file" id="selfie" name="selfie" />
         </div>
         <br>
         <br>
-
-        <button class="btn btn-primary">Register</button>
+       <button class="btn btn-primary">Register</button>
       </form>
       <br />
+      </div>
       
       <p>Thankyou for applied PayLater!</p>
       <p>We will Process the verification and announce it on 2-3 days.</p>
